@@ -1,0 +1,19 @@
+/* Reseteo básico */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* 135deg: Es el ángulo (diagonal de esquina a esquina).
+     #ffffff 50%: El blanco ocupa la primera mitad.
+     #198754 50%: El verde ocupa la segunda mitad.
+     El corte es duro (sin difuminar) para que se vean dos colores sólidos.
+  */
+  background: linear-gradient(135deg, #ffffff 50%, #198754 50%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: system-ui, sans-serif;
+}
